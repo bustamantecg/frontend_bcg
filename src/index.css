@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@plugin "daisyui";
+ 
+
+:root {
+    --theme-light: light;
+    --theme-dark: dark;
+    --theme-synthwave: synthwave;
+  }
+  
+  [data-theme="light"] {
+    background-color: white;
+    color: black;
+  }
+  [data-theme="dark"] {
+    background-color:rgb(24, 21, 192) ;
+    color: rgb(116, 116, 182);
+  }
+  [data-theme="synthwave"] {
+    background-color: #2d2d2d;
+    color: #ff00ff;
+  }
