@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 
 const RegisterPage = () => {
@@ -130,9 +130,9 @@ const RegisterPage = () => {
 
           <p className="text-center text-sm mt-4">
             ¿Ya tienes cuenta?{" "}
-            <a href="/login" className="text-indigo-600 underline">
+            <Link to="/login" className="text-indigo-600 underline">
               Inicia sesión
-            </a>
+              </Link>
           </p>
         </section>
       </form>
